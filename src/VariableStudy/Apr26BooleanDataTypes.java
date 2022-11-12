@@ -2,9 +2,8 @@ package VariableStudy;
 
 public class Apr26BooleanDataTypes {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+	public static void main(String[] args) 
+	{
 		//boolean data types o/p is only True or False
 		
 		//variable declaration

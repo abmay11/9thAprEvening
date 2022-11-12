@@ -7,8 +7,8 @@ public class Apr29NonStaticRegular {
 		//classname objectname= new classname();
 		Apr29NonStaticRegular A= new Apr29NonStaticRegular();
 		
-		//to call non static method from same calss
-		//obectname.methodname();
+		//to call non static method from same class
+		//objectname.methodname();
 		A.test();
 
 		//creating object of different class

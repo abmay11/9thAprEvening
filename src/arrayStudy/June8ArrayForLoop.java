@@ -1,6 +1,6 @@
 package arrayStudy;
 
-public class May8ArrayForLoop 
+public class June8ArrayForLoop 
 {
 
 	public static void main(String[] args) 
@@ -17,7 +17,7 @@ public class May8ArrayForLoop
 				city[4]=null;
 				//city[5]="abcd"; //ArrayIndexOutOfBoundsException..5 means actually 4 since index starting from 0
 				
-				//static testing
+		//static testing
 				for(int i=0;i<=4;i++) //forward
 				{
 					System.out.println(city[i]);
@@ -29,28 +29,42 @@ public class May8ArrayForLoop
 				{
 					System.out.println(city[i]);
 				}
-				
-				System.out.println("==============");
+				System.out.println("***********");
 				
 				System.out.println(city.length);
-				System.out.println("==============");
+				System.out.println("//////////////");
 				
-				//dynamic testing
+		//dynamic testing
 				
 				for (int i=0;i<=city.length-1;i++) //whatever will be array capacity..no need to change syntax
 				{
 					System.out.println(city[i]);
 				}
 				
-				System.out.println("==============");
+				System.out.println("############");
 				
 				for (int i=city.length-1;i>=0;i--)
 				{
 					System.out.println(city[i]);
 				}
+				System.out.println(">>>>>>>>>>>>>>");
 				
-					
+		//reverse the name			
+		   char name[] = {'a','b','h','i'};
 		
+		   for(int i=name.length-1;i>=0;i--)
+		  {
+			System.out.print(name[i]);
+		  }
+		   System.out.println("@@@@@@@@@@@@@@");
+		   
+		 //reverse the String
+		   String line[]= {"i","love","my","India"};
+		   
+		   for(int i=line.length-1;i>=0;i--)
+		   {
+			   System.out.print(line[i]+" ");
+		   }
 
 	}
 

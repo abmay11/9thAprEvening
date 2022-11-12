@@ -51,7 +51,7 @@ public class June29VectorHomo {
 	      }
 		  System.out.println("============================");
 		  
-		   //enumeration
+ //enumeration
 			System.out.println("Enumeration");
 			
 			Enumeration<Character> enm = ch.elements();

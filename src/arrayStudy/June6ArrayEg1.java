@@ -1,6 +1,8 @@
 package arrayStudy;
 
-public class May6ArrayEg1 
+import java.util.Arrays;
+
+public class June6ArrayEg1 
 {
 
 	public static void main(String[] args) 
@@ -15,7 +17,7 @@ public class May6ArrayEg1
 		city[2]="Thane";
 		city[3]="Dhule";
 		city[4]=null;
-		//city[5]="abcd"; //ArrayIndexOutOfBoundsException..5 means actually 4 since index starting from 0
+		//city[5]="abcd"; //ArrayIndexOutOfBoundsException..5 means actually 4 .since index starting from 0
 		
 		//3.Usage
 		
@@ -32,6 +34,8 @@ public class May6ArrayEg1
 		
 		marks[0]=86;
 		marks[1]=62;
+		
+		Arrays.sort(marks);   //inbuilt method array class provided by java.util
 		
 		System.out.println(marks[0]);
 		System.out.println(marks[1]);

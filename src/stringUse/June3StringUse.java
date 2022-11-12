@@ -27,20 +27,20 @@ public class June3StringUse {
 		String r2=" ";
 		//String r3=null; //NullPointerException
 		
-		System.out.println(r0.isEmpty()); //length is not 0
+		System.out.println(r0.isEmpty()); //length is not 0...false
 		
 		boolean result=r0.isEmpty(); //to use in future..return type is true or false so used data type as boolean
 		System.out.println(result); 
 		
-		System.out.println(r1.isEmpty()); //length is 0..no space
+		System.out.println(r1.isEmpty()); //length is 0..no space..true
 		System.out.println(r2.isEmpty()); //space also consider length=1...i.e.not 0
 		//System.out.println(r3.isEmpty()); //NullPointerException
 		System.out.println("***************");
 		
 		//is blank() method use
 		System.out.println(r0.isBlank()); //should not contain anything
-		System.out.println(r1.isBlank());
-		System.out.println(r2.isBlank());
+		System.out.println(r1.isBlank());    //true
+		System.out.println(r2.isBlank());    //true
 		System.out.println("^^^^^^^^^^^^^^^^^");
 		
 		//8.charAt method use
@@ -64,13 +64,14 @@ public class June3StringUse {
 	    
 	    String n="abcd";
 	    
-	    System.out.println(n.endsWith("d"));
+	    System.out.println(n.endsWith("d"));   
 	    System.out.println(n.endsWith("a")); 
 	    System.out.println(n.endsWith("cd"));
 	    System.out.println(n.endsWith("Cd")); //case sensitive
 	    System.out.println(n.endsWith("bcd"));
 	    System.out.println(n.endsWith("abcd")); 
 	    System.out.println(n.endsWith("cbd")); //not in sequence
+	    System.out.println(n.endsWith("abc"));
 	    System.out.println("@@@@@@@@@@@@@@@@@@@");
 	    
 	    //10.Starts with method

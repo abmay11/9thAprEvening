@@ -1,6 +1,6 @@
 package arrayStudy;
 
-public class May9MultiDimensionArrayWithNewKeyword {
+public class June9MultiDimensionArrayWithoutNewKeyword {
 
 	public static void main(String[] args) 
 	{

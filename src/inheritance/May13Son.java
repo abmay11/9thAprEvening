@@ -15,4 +15,9 @@ public class May13Son extends May13Mother {
 	{
 		System.out.println("Sons Laptop");
 	}
+	
+//	public static void main(String[]args)
+//	{
+//	looks();  //we can directly call Super class static method w/t using class name or object
+//	}
 }

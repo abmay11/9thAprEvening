@@ -2,8 +2,8 @@ package VariableStudy;
 
 public class Apr22StringIntFloat {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public static void main(String[] args) 
+	{
 		
 		String name;
 		int Rollnum;

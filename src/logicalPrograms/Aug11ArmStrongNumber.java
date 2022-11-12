@@ -12,7 +12,8 @@ public class Aug11ArmStrongNumber {
 		for(int i=num;i>0;i=i/10)
 		{
 			int rem=i%10;  //3,7,1
-			sum=sum+rem*rem*rem;  //3^3+7^3+1^3=371
+			System.out.println(rem);
+			sum=sum+rem*rem*rem;  //1^3+7^3+3^3=371
 			
 		}
 		

@@ -2,9 +2,8 @@ package VariableStudy;
 
 public class Apr22float {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+	public static void main(String[] args) 
+	{
 		//float datatype use for decimal number(eg.1.2,10.50,999.9etc)
 		
 		//example 1
@@ -21,7 +20,7 @@ public class Apr22float {
 		marks=10;
 		System.out.println(marks);
 		
-		Float money;//uppercase (F)also taking?
+		float money;//uppercase (F)also taking?
 		money =10f;
 		System.out.println(money);
 		

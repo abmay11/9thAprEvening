@@ -20,7 +20,7 @@ public class June29VectorStudy {
 		v.add(123);
 		
 		System.out.println(v);
-		
+		System.out.println(v.capacity()); //10...arraylist don't has capacity method
 		System.out.println(v.size());
 		v.add(0, "velocity");
 		System.out.println(v);
@@ -78,7 +78,7 @@ public class June29VectorStudy {
 		System.out.println("====================");
 		
 		
-		//enumeration
+//enumeration
 		System.out.println("Enumeration");
 		
 		Enumeration enm = v.elements();

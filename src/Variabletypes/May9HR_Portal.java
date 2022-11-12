@@ -18,6 +18,7 @@ public class May9HR_Portal
 		Sachin.emp_desgn="Batsman";
 		Sachin.emp_age=41;
 		Sachin.emp_gender='M';
+		//Sachin.team="Eng";   //cant call static this way..not good practice
 		
 		Virat.emp_name="Virat";//non static global variable from another class
 		Virat.emp_id="IND18";
@@ -25,6 +26,7 @@ public class May9HR_Portal
 		Virat.emp_desgn="Batsman";
 		Virat.emp_age=36;
 		Virat.emp_gender='M';
+		//Virat.team="NZ";   //cant call static this way..not good practice
 		
 		
 		Sachin.emp_info();

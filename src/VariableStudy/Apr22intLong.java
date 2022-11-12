@@ -2,8 +2,8 @@ package VariableStudy;
 
 public class Apr22intLong {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public static void main(String[] args) 
+	{
 		
 		//int datatype use for integer(whole number eg.1,2,10etc)
 		

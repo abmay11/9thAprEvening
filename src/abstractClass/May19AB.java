@@ -7,6 +7,7 @@ public abstract class May19AB
 	{
 		//AB a=new AB(); object creation not allowed in abstract class..
 		//it will make confusion while calling methods complete or incomplete
+		alpha();
 
 	}
 	

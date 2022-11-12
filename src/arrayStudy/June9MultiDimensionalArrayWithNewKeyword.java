@@ -1,28 +1,27 @@
 package arrayStudy;
 
-public class May9MultiDimensionalArray {
+public class June9MultiDimensionalArrayWithNewKeyword {
 
 	public static void main(String[] args) 
 	{
 		//Ex.1
 		//1.array declaration
-		
 		int a[][]=new int[2][2]; //2*2 size matrix..1st row or column start with 0..coz of array
 		
 		//2.assign value
-		
 		a[0][0]=1; //row=0 & column=0
 		a[0][1]=2; //row=0 & column=1
 		a[1][0]=3; //row=1 & column=0
 		a[1][1]=4; //row=1 & column=1
 		
+		//3.use
 		System.out.print(a[0][0]+" ");
 		System.out.println(a[0][1]);
 		System.out.print(a[1][0]+" ");
 		System.out.println(a[1][1]);
 		System.out.println("=================");
 		
-		//for loop for above
+	//for loop for above
 		
 		for(int i=0;i<=1;i++) //outer loop for Row..i=0,1
 		{

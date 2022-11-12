@@ -46,7 +46,7 @@ public class May3StaticMethodsWithParameterNonParameter {
 		int sum=p+q+r;
 		
 		
-		System.out.println("Non static w/t parameter addion is "+sum);
+		System.out.println("Non static w/t parameter addition is "+sum);
 	
 	}
 	

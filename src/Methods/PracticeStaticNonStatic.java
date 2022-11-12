@@ -1,15 +1,18 @@
 package Methods;
 
-public class PracticeStaticNonStatic {
+public class PracticeStaticNonStatic 
+{
 	
-	public static void test() {
+	public static void test() 
+	{
 		String msg;
 		msg="this is static regular method from same class";
 		System.out.println(msg);
 		
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		
 		test();//static regular from same class
 		

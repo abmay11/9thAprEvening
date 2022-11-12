@@ -18,7 +18,6 @@ public class Aug11EvenOddNumber {
 		 int s = sc.nextInt();
 
 				
-		
 		if(s%2==0)
 		{
 			System.out.println("Entered number is Even");
@@ -29,6 +28,18 @@ public class Aug11EvenOddNumber {
 		{
 			System.out.println("Enterd number is odd");
 		}
+		
+//		if(s%2!=0)
+//		{
+//			System.out.println("Entered number is odd");
+//			
+//		}
+//
+//		else 
+//		{
+//			System.out.println("Enterd number is Even");
+//		}
+		
 	}
 
 }

@@ -14,7 +14,7 @@ public class May18SuperUSe extends May18demo
 		
 		System.out.println("static global value of b from sameclass "+this.b);//type 1
 		System.out.println("static global value of b from sameclass "+b); //type1'
-		System.out.println("static global value of b from sameclass "+May18SuperUSe.b);
+		//System.out.println("static global value of b from sameclass "+May18SuperUSe.b);
 		
 		System.out.println("static global value of b from superclass "+May18demo.b); //demo class
 		System.out.println("static global value of b from superclass "+super.b);

@@ -8,6 +8,7 @@ public class July1LinkedHashSet {
 	public static void main(String[] args) 
 	{
 		LinkedHashSet li=new LinkedHashSet();
+		//LinkedHashSet<Character>li1 = new LinkedHashSet<>();
 		
 		li.add("Pune");
 		li.add(489);
@@ -19,10 +20,12 @@ public class July1LinkedHashSet {
 		li.add("pune");
 		li.add(489);
 		
-		System.out.println(li);
+		System.out.println(li);  //maintained and no repetition and 1 null only
 		System.out.println("================");
 		
-		//for each method
+	//does not support for loop----->get method is not available
+		
+//for each method
 		System.out.println("For each");
 		
 		for(Object k:li)
@@ -30,12 +33,18 @@ public class July1LinkedHashSet {
 			System.out.println(k);
 		}
 		
+//		for(Character k1:li1)
+//		{
+//			System.out.println(k1);
+//		}
+		
 		System.out.println("=================");
 		
-		//iterator
+//iterator
 		System.out.println("Iterator");
 		
 		Iterator it = li.iterator();
+		//Iterator<Character> it1 = li1.iterator();
 		
 		while(it.hasNext())
 		{

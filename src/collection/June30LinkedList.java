@@ -11,6 +11,7 @@ public class June30LinkedList {
 		
 		LinkedList ll=new LinkedList();
 		
+		
 		ll.add("Velocity");
 		ll.add('A');
 		ll.add(99.36);
@@ -23,6 +24,11 @@ public class June30LinkedList {
 		System.out.println(ll);
 		System.out.println(ll.size());
 		System.out.println(ll.get(5));
+		ll.add(4,200);
+		System.out.println(ll);
+		ll.remove(4);
+		System.out.println(ll);
+		ll.set(0, "xyz");
 		System.out.println("======================================");
 		
 		System.out.println(ll.peek()); //returns 1st element //to see defn just move cursor on word 
@@ -39,8 +45,11 @@ public class June30LinkedList {
 		System.out.println(ll);
 		System.out.println(ll.pollFirst()); //same as poll
 		System.out.println(ll);
-		System.out.println(ll.pollLast());//returns 1st element and removes
+		System.out.println(ll.pollLast());//returns last element and removes
 		System.out.println(ll);
+		System.out.println(ll.pop()); //same as poll...//returns 1st element and removes
+		System.out.println(ll);
+		
 		
 		System.out.println("=============================");
 		

@@ -19,7 +19,7 @@ public class June29ArrayList {
 		al.add('C');
 		al.add("Velocity");
 		
-		//For each loop
+//For each loop
 		System.out.println("OUTPUT USING FOR EACH LOOP");
 		for(Object p:al) //variable can be any letter ie a,b,c...z
 		{
@@ -27,7 +27,7 @@ public class June29ArrayList {
 		}
 		System.out.println("===========================");
 		
-		//iterator
+//iterator
 		System.out.println("OUTPUT USING ITERATOR");
 		Iterator it = al.iterator();
 		
@@ -35,9 +35,9 @@ public class June29ArrayList {
 		{
 			System.out.println(it.next());
 		}
-		System.out.println("===========================");
+		System.out.println("@@@@@@@@@@@@@@@@@");
 		
-		//listIterator
+//listIterator
 		System.out.println("OUTPUT USING LIST ITERATOR");
 		ListIterator li = al.listIterator();
 		

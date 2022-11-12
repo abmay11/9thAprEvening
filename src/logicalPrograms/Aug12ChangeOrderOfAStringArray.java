@@ -9,7 +9,7 @@ public class Aug12ChangeOrderOfAStringArray
 		
 		String ar[] = name.split(" ");
 	       //ar={"I","LOVE","MY","INDIA"}  //0,1,2,3
-		
+	
 		
 		for(int i=0;i<=ar.length-1;i++)
 		{

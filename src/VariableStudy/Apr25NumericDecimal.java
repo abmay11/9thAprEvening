@@ -2,8 +2,8 @@ package VariableStudy;
 
 public class Apr25NumericDecimal {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public static void main(String[] args) 
+	{
 		
 		//ex1.float(after decimal less digits than double )
 		

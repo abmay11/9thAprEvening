@@ -22,7 +22,7 @@ public class Aug13Eg11 {
 			{
 				System.out.print("* ");
 			}
-			star=star-1;
+			star=star-1;  //star--
 			space++;
 			System.out.println();
 		}

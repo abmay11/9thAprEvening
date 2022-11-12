@@ -7,7 +7,7 @@ public class July1Treeset {
 
 	public static void main(String[] args) 
 	{
-		TreeSet tr=new TreeSet();
+		TreeSet tr=new TreeSet();  //only homogeneous allowed..no concept of hetero here
 		
 		tr.add(6);
 		//tr.add("abc");   // class cast exception //treeset accept only homogeneous data
@@ -16,15 +16,18 @@ public class July1Treeset {
 		tr.add(4);
 		tr.add(9);
 		tr.add(1);
+		tr.add(6);
 		//tr.add(null);  //null pointer exception
-		tr.add(6); 
+		 
 		
-		System.out.println(tr);
+		System.out.println(tr); //ascending..no null..no repetition
 		System.out.println("================");
 		
 		//tr.add("Infosys"); // class cast exception
 		
-		//for each
+	//does not support for loop----->get method is not available
+		
+//for each
 		System.out.println("for each");
 		
 		for(Object w:tr)
@@ -34,7 +37,7 @@ public class July1Treeset {
 		
 		System.out.println("==================");
 		
-		//iterator
+//iterator
 		System.out.println("Iterator");
 		
 		Iterator it = tr.iterator();

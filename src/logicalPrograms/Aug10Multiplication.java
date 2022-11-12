@@ -9,15 +9,12 @@ public class Aug10Multiplication {
         Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Enter the 1st number");
-		
 		int number1 = sc.nextInt();
 		
         System.out.println("Enter the 2nd number");
-		
 		int number2 = sc.nextInt();
 		
 		int mul = number1*number2;
-		
 		System.out.println("Multiplication is "+mul);
 		
 		

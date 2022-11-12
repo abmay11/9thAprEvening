@@ -20,7 +20,8 @@ public class NestedIf1 {
 			System.out.println("pin incorrect,enter valid pin");	
 			}
 		}
-		else {
+		else 
+		{
 			System.out.println("Please insert card properly");
 		}
 		

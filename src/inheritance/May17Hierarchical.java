@@ -2,7 +2,7 @@ package inheritance;
 
 public class May17Hierarchical {
 
-	//Acquiring properties from parentclass A by sub class B and C 
+	//Acquiring properties from parent class A by sub class B and C 
 	
 	public static void main(String[] args) 
 	{

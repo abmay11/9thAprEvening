@@ -6,6 +6,7 @@ public class Aug12ChangeOrderOfAString {
 	{
 		
 		String r = Aug12ChangeOrderOfAString.revString("Velocity");
+		//String r = revString("Velocity");  //same result
  
 		System.out.println(r);
 	}

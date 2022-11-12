@@ -16,10 +16,10 @@ public class June1UpCasting {
 		s.Sport(); //son object require to call its method..which is present only in son class
 		System.out.println("=====================");
 		
-		June1Father f1=new June1Son();  //here f object belongs to son class..father is a data type
+		June1Father f1=new June1Son();  //here f1 object belongs to son class..father is a data type
 		
-		f1.car(); //method common in father and son class will get acquired by f object
-		f1.bike(); 
+		f1.car(); //method common in father and son class will only get acquired by f1 object.
+		f1.bike(); //call will go to son class 
 		// f1.sport(); 
 		
 		

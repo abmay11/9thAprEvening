@@ -27,7 +27,7 @@ public class May16MultiLevelInheritance {
 		System.out.println("=====================");
 		
 		m.looks(); //calling May16Mother method using May16Mother class object
-		m.stories(); //calling May16Grandmother method using May16Daughter class object
+		m.stories(); //calling May16Grandmother method using May16Mother class object
 
 	}
 

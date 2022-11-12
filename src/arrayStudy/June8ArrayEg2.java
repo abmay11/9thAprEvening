@@ -1,13 +1,13 @@
 package arrayStudy;
 
-public class May8ArrayEg2 {
+public class June8ArrayEg2 {
 
 	public static void main(String[] args) 
 	{
 		String city[]=new String[3]; //only declaration..
+		
 		//eg.1
 		//1.declaration+2.initialization
-		
 		String city1[]= {"Pune","Mumbai",null,"Nagpur"};
 		
 		System.out.println(city1[0]);
@@ -21,6 +21,12 @@ public class May8ArrayEg2 {
 			System.out.println(city1[i]);
 		}
 		
+//	for(int i=0;i<=3;i++) //forward
+//		{
+//			System.out.println(city1[i]);
+//		}
+		
+		
 		//eg2.
 		char grade[]= {'A','B','C'};
 		
@@ -32,7 +38,6 @@ public class May8ArrayEg2 {
 		//System.out.println(rollnum[0]); //ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
 		
 	
-
 	}
 
 }

@@ -34,8 +34,8 @@ public class June6StringMethods {
 		System.out.println(t1.lastIndexOf('n')); //index of 1st n from last 
 		System.out.println(t1.lastIndexOf('i')); //index of 1st i from last
 		
-		System.out.println(t1.indexOf('i', 23)); //index of i before 2nd part..so giving reference of c(index=23)
-		System.out.println(t1.indexOf('i', 24)); //index of i before 2nd part..so giving reference of h(index=24)..same o/p
+		System.out.println(t1.indexOf('i', 26)); //index of i before 2nd word..so giving reference of i(index=26)
+		System.out.println(t1.indexOf('i', 24)); //index of i before 2nd word..so giving reference of h(index=24)..same o/p
 		
 		System.out.println("**************");
 		
@@ -50,6 +50,29 @@ public class June6StringMethods {
 		System.out.println(p.replace("bu", "  "));
 		System.out.println(p.replace("bu", "do"));
 		System.out.println(p.replace("BO", "DPO")); //printing as it is string
+		
+		String s= "I :LOVE :MY :INDIA";
+		String sp=":";
+		String required[]=s.split(sp);
+
+		System.out.println(required[0]);
+		System.out.println(required[1]);
+		System.out.println(required[2]);
+		System.out.println(required[3]);
+		
+		String mystring="Good Morning";
+		String s1=" ";
+		String output[]=mystring.split(s1);
+		System.out.println(output[0]);
+
+
+		String m ="abhijit nikam";
+		String n ="jit";
+		
+		System.out.println(m.indexOf('i', 5));
+				
+		
+		
 		
 		
 

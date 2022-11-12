@@ -2,8 +2,7 @@ package inheritance;
 
 public class May17A 
 {
-
-	public void test()
+     public void test()
 	{
 		System.out.println("A's property");
 	}

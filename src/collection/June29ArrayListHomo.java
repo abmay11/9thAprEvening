@@ -20,8 +20,7 @@ public class June29ArrayListHomo {
 	  System.out.println(al);
 	  System.out.println("===============================");
 	  
-	  
-	  //for each loop
+//for each loop
 	  System.out.println("for each loop o/p");
 	  
 	  for(Integer i:al)
@@ -31,7 +30,7 @@ public class June29ArrayListHomo {
 	  System.out.println("=================================");
 
 	  
-	  //iterator
+//iterator
 	  System.out.println("iterator o/p");
 	  
 	  Iterator<Integer> it= al.iterator();
@@ -42,7 +41,7 @@ public class June29ArrayListHomo {
 	  }
 	  System.out.println("===============================");
 	  
-	  //list iterator
+//list iterator
 	  System.out.println("list iterator o/p");
 	  
 	  ListIterator<Integer> li=al.listIterator();

@@ -2,9 +2,8 @@ package VariableStudy;
 
 public class Apr21String {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	public static void main(String[] args) 
+	{
 		//single line comment to give instruction to programmer not part of program
 		
 		/*multiline comment if instructions are more than one line
